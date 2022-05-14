@@ -34,3 +34,14 @@ print(z)
 x = 5
 y = "John"
 print(x, y)
+
+# Functions
+temp = "dang"
+def variableTest():
+    temp = "dank"
+    print("Local overrides global: " + temp)
+    # this local variable overrides the global variable
+
+variableTest()
+
+
