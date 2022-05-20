@@ -64,3 +64,20 @@ x = None #NoneType
 # You can also set specific data types
 x = str("Hello World")
 x = int(2)
+
+# Numbers
+x = 1    # int, whole positive or negative number
+y = 2.8  # float, positive of negative number with one or more decimal digits
+z = 1j   # complex, with the j as the imaginary number "i"
+
+# you can convert using
+a = 2
+a = float(a)
+print(a)
+
+# you can use random too
+import random
+print(random.randrange(1,10));
+
+# Booleans: WIP
+
