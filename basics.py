@@ -79,5 +79,15 @@ print(a)
 import random
 print(random.randrange(1,10));
 
-# Booleans: WIP
+# Booleans (same as Java but capitalized)
+
+# these all return true
+bool("abc")
+bool(123)
+
+# only empty values, 0, and None return false
+bool(0)
+
+# Operators WIP
+
 
