@@ -80,7 +80,6 @@ import random
 print(random.randrange(1,10));
 
 # Booleans (same as Java but capitalized)
-
 # these all return true
 bool("abc")
 bool(123)
@@ -88,6 +87,20 @@ bool(123)
 # only empty values, 0, and None return false
 bool(0)
 
-# Operators WIP
+# Operators that are not found in Java
+x = 2
+y = 2
+a = x ** y # exponents, a = 4
+a = x // y # divides and rounds to nearest whole, a = 1;
+
+# Assignment operators are just normal operatos but equals after, they assign and do the task
+x = 5
+x -= 5
+x % 5
+x /= 5
+
+# Python Identity Operators (same memory location not object)
+bool(x is y)
+bool(x is not y)
 
 
